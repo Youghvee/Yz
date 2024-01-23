@@ -43,7 +43,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/rxvthv")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TatsuyaSupportStream")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -81,12 +81,12 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/fb2aa9e4d29fe0a2c853b.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/56efe17761ffc503774c2.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/fb2aa9e4d29fe0a2c853b.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/fb2aa9e4d29fe0a2c853b.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"

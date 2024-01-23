@@ -28,6 +28,7 @@ OWNER_ID = int(getenv("OWNER_ID", 2083739817))
 OWNER_ID = int(getenv("OWNER_ID", 835478438))
 OWNER_ID = int(getenv("OWNER_ID", 1644811803))
 OWNER_ID = int(getenv("OWNER_ID", 814111383))
+OWNER_ID = int(getenv("OWNER_ID", 1014948468))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
